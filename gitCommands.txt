@@ -1,0 +1,23 @@
+got to github.com
+login to account
+new repository
+create repository
+-----------------------
+cd
+ls
+cd Documents/GitHub
+ls
+cd ms_programmingAssignment10_JHU_
+git --help
+git init 
+git lfs track "my_folder/**" or git add .gitattrubutes
+git add .gitignore
+git add .
+git commit -m"..."
+git branch -M main
+git remote add origin https://github.com/MichaelSodeke/ms_programmingAssignment10_JHU_.git
+git push -u origin main
+git status
+git log or git shortlog
+git lfs ls-files
+-----------------------

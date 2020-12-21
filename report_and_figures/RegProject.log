@@ -1,0 +1,906 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.26)  14 DEC 2020 17:31
+entering extended mode
+**C:/Users/msode/Documents/GitHub/ms_programmingAssignment10_JHU_/report_and_fi
+gures/RegProject.tex
+
+(C:/Users/msode/Documents/GitHub/ms_programmingAssignment10_JHU_/report_and_fig
+ures/RegProject.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip49
+\thanksmargin=\skip50
+\droptitle=\skip51
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box45
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen135
+\ttl@minus=\dimen136
+\ttl@toksa=\toks17
+\titlewidth=\dimen137
+\titlewidthlast=\dimen138
+\titlewidthfirst=\dimen139
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen140
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks19
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks20
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks21
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
+\dth@everypar=\toks28
+)
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box48
+\extrarowheight=\dimen150
+\NC@list=\toks29
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box49
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thmtools.sty
+Package: thmtools 2020/08/01 v0.72
+\thmt@toks=\toks30
+\c@thmt@dummyctr=\count188
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-patch.sty
+Package: thm-patch 2020/08/01 v0.72
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\parseargs.sty
+Package: parseargs 2020/08/01 v0.72
+\@parsespec=\toks31
+))
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-kv.sty
+Package: thm-kv 2020/08/01 v0.72
+Package thm-kv Info: Theorem names will be uppercased on input line 42.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks32
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 158.
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-autoref.sty
+Package: thm-autoref 2020/08/01 v0.72
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\aliasctr.sty
+Package: aliasctr 2020/08/01 v0.72
+))
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-listof.sty
+Package: thm-listof 2020/08/01 v0.72
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-restate.sty
+Package: thm-restate 2020/08/01 v0.72
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/thmtools\thm-amsthm.sty
+Package: thm-amsthm 2020/08/01 v0.72
+\thmt@style@headstyle=\toks33
+))
+("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count189
+\calc@Bcount=\count190
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count191
+\calc@Cskip=\skip73
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks34
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (455.24408pt) is ignored.
+
+) (C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box50
+\sift@deathcycles=\count195
+\@vwid@loff=\dimen161
+\@vwid@roff=\dimen162
+)
+\c@taburow=\count196
+\tabu@nbcols=\count197
+\tabu@cnt=\count198
+\tabu@Xcol=\count199
+\tabu@alloc=\count266
+\tabu@nested=\count267
+\tabu@target=\dimen163
+\tabu@spreadtarget=\dimen164
+\tabu@naturalX=\dimen165
+\tabucolX=\dimen166
+\tabu@Xsum=\dimen167
+\extrarowdepth=\dimen168
+\abovetabulinesep=\dimen169
+\belowtabulinesep=\dimen170
+\tabustrutrule=\dimen171
+\tabu@thebody=\toks35
+\tabu@footnotes=\toks36
+\tabu@box=\box51
+\tabu@arstrutbox=\box52
+\tabu@hleads=\box53
+\tabu@vleads=\box54
+\tabu@cellskip=\skip74
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\color.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/08/26 v1.2 Graphics/color driver for pdftex
+))
+\everycr=\toks37
+\minrowclearance=\skip75
+)
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count268
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen172
+\Gin@req@width=\dimen173
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count270
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count271
+\FV@StepNumber=\count272
+\FV@OutFile=\write3
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count273
+\output=\toks38
+\linenoprevgraf=\count274
+\linenumbersep=\dimen174
+\linenumberwidth=\dimen175
+\c@linenumber=\count275
+\c@pagewiselinenumber=\count276
+\c@LN@truepage=\count277
+\c@internallinenumber=\count278
+\c@internallinenumbers=\count279
+\quotelinenumbersep=\dimen176
+\bframerule=\dimen177
+\bframesep=\dimen178
+\bframebox=\box56
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count280
+\c@FV@TrueTabCounter=\count281
+\FV@TabBox@Group=\box57
+\FV@TmpLength=\skip76
+\c@FV@HighlightLinesStart=\count282
+\c@FV@HighlightLinesStop=\count283
+\FV@LoopCount=\count284
+\FV@NCharsBox=\box58
+\FV@BreakIndent=\dimen179
+\FV@BreakIndentNChars=\count285
+\FV@BreakSymbolSepLeft=\dimen180
+\FV@BreakSymbolSepLeftNChars=\count286
+\FV@BreakSymbolSepRight=\dimen181
+\FV@BreakSymbolSepRightNChars=\count287
+\FV@BreakSymbolIndentLeft=\dimen182
+\FV@BreakSymbolIndentLeftNChars=\count288
+\FV@BreakSymbolIndentRight=\dimen183
+\FV@BreakSymbolIndentRightNChars=\count289
+\c@FancyVerbLineBreakLast=\count290
+\FV@LineBox=\box59
+\FV@LineIndentBox=\box60
+\FV@LineWidth=\dimen184
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count291
+\decimalpart=\count292
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip77
+\fb@frw=\dimen185
+\fb@frh=\dimen186
+\FrameRule=\dimen187
+\FrameSep=\dimen188
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks39
+\float@box=\box61
+\@float@everytoks=\toks40
+\@floatcapt=\box62
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box63
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count294
+\c@minted@pygmentizecounter=\count295
+\@float@every@listing=\toks41
+\c@listing=\count296
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
+("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-09-03 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-01 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count297
+\l__pdf_internal_box=\box64
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"
+\l__xparse_current_arg_int=\count298
+\g__xparse_grabber_int=\count299
+\l__xparse_m_args_int=\count300
+\l__xparse_v_nesting_int=\count301
+)))
+("C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count302
+\c@Blindtext=\count303
+\c@blind@countparstart=\count304
+\blind@countxx=\count305
+\blindtext@numBlindtext=\count306
+\blind@countyy=\count307
+\c@blindlist=\count308
+\c@blindlistlevel=\count309
+\c@blindlist@level=\count310
+\blind@listitem=\count311
+\c@blind@listcount=\count312
+\c@blind@levelcount=\count313
+\blind@mathformula=\count314
+\blind@Mathformula=\count315
+\c@blind@randomcount=\count316
+\c@blind@randommax=\count317
+\c@blind@pangramcount=\count318
+\c@blind@pangrammax=\count319
+)
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/bold-extra\bold-extra.sty
+Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
+)
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Re
+gProject.aex <nul: /p x=^%~$PATH:i>> RegProject.aex)...executed.
+
+runsystem(del RegProject.aex)...executed.
+
+
+
+LaTeX Warning: Unused global option(s):
+    [openleft].
+
+(RegProject.aux)
+\openout1 = `RegProject.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(84.67538pt, 583.2815pt, 127.0131pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75499pt
+* \textheight=583.2815pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-24.5946pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count320
+\scratchdimen=\dimen189
+\scratchbox=\box65
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen190
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks43
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/msode/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -S default -f latex -P commandprefix=PYG > RegProject.out.
+pyg)...executed.
+
+ (RegProject.out.pyg)
+runsystem(pygmentize -S bw -f latex -P commandprefix=PYGbw > RegProject.out.pyg
+)...executed.
+
+
+(RegProject.out.pyg)
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg
+LaTeX Font Info:    Trying to load font information for OT1+qcr on input line 1
+.
+
+(C:\Users\msode\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\ot1qcr.fd
+File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
+))
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 24.57077pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ [3] (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg) [4]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg) [5]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+<./figures/plot2.png, id=33, 1280.33533pt x 711.28134pt>
+File: ./figures/plot2.png Graphic file (type png)
+<use ./figures/plot2.png>
+Package pdftex.def Info: ./figures/plot2.png  used on input line 621.
+(pdftex.def)             Requested size: 467.32828pt x 259.62096pt.
+ [6 <./figures/plot2.png>]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg) [7]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+<./figures/plot1.png, id=42, 1280.33533pt x 711.28134pt>
+File: ./figures/plot1.png Graphic file (type png)
+<use ./figures/plot1.png>
+Package pdftex.def Info: ./figures/plot1.png  used on input line 797.
+(pdftex.def)             Requested size: 467.32828pt x 259.62096pt.
+ [8]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ [9 <./figures/plot1.png>] (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+
+Package Fancyhdr Warning: \headheight is too small (24.57077pt): 
+Make it at least 25.12633pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[10]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg) [11]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg) [12]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg) [13]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+<./figures/plot3.png, id=63, 1280.33533pt x 711.28134pt>
+File: ./figures/plot3.png Graphic file (type png)
+<use ./figures/plot3.png>
+Package pdftex.def Info: ./figures/plot3.png  used on input line 1363.
+(pdftex.def)             Requested size: 467.32828pt x 259.62096pt.
+ [14]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg) [15 <./figures/plot3.png>]
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+ [16] (RegProject.out.pyg)
+\openout3 = `RegProject.pyg'.
+
+runsystem(pygmentize -l r -f latex -P commandprefix=PYG -F tokenmerge -o RegPro
+ject.out.pyg RegProject.pyg)...executed.
+
+
+(RegProject.out.pyg)
+<./figures/plot4.png, id=74, 1280.33533pt x 711.28134pt>
+File: ./figures/plot4.png Graphic file (type png)
+<use ./figures/plot4.png>
+Package pdftex.def Info: ./figures/plot4.png  used on input line 1521.
+(pdftex.def)             Requested size: 467.32828pt x 259.62096pt.
+ [17 <./figures/plot4.png>] [18] (RegProject.aux)
+runsystem(del RegProject.pyg)...executed.
+
+runsystem(del RegProject.out.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9553 strings out of 481199
+ 163422 string characters out of 2915349
+ 477960 words of memory out of 3000000
+ 24874 multiletter control sequences out of 15000+200000
+ 545791 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,15n,45p,927b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/msode/AppData/Roaming/MiKTeX/fonts/enc/dvips/tex-gyre/q-rmm.enc}<C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/msode/AppData/Roaming/Mi
+KTeX/fonts/type1/public/tex-gyre/qcrr.pfb>
+Output written on RegProject.pdf (18 pages, 1054425 bytes).
+PDF statistics:
+ 133 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

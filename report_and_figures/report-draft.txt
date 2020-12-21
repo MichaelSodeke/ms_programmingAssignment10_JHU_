@@ -1,0 +1,339 @@
+[report draft-1]
+
+-----------------------------------------------------------------------------------------------------------------
+[outline]
+- objective-1
+	> compare [LLN] of exponential distribution with [CLT] of the same.
+	> expnential info:
+		- about exp. decay:
+			- [https://en.wikipedia.org/wiki/Exponential_decay]
+		- about exp. distribution:
+			- [https://en.wikipedia.org/wiki/Exponential_distribution]
+			- [https://openstax.org/books/introductory-business-statistics/pages/5-3-the-exponential-distribution]
+
+
+-----------------------------------------------------------------------------------------------------------------
+[draft-1]
+
+[[abstract]]
+...
+
+
+
+[[background]]
+--SKIP--
+
+
+
+[[METHOD: case I]]
+
+[INTRO]
+\textsc{case i} involves the use of the ANCOVA (one-way) model that will help
+gnerate values for the response variable. From this model, the parameter estimates
+,$\alphahat$ and $\betahat$, and the degrees of freedom, $df$, can be calculated.
+Next, the $MSE$ is found after calculating the sum of squares. A hypothesis test is
+conducted to determine if there truely exists a linear relation between
+\textbf{major category} and \textbf{income}. Influence diagnostics will be used to
+identify any data points that are effecting the outcome of the model. Finanlly, model
+validation is explored to determine which parameters are relevant to the model.
+
+[1] model: ANCOVA one-way (unbalanced) model with q = 2 covariates
+Since \textbf{major category} is categorical and both \textbf{perc college jobs} and
+\textbf{perc non college jobs} are numeric, the best option is to use the ANCOVA
+(one-way) model with $q = 2$ covariates. The model can be expressed in mathematical
+noation as
+y_{ij} = \mu + \alpha_{i} + \beta x_{ij1} + \beta x_{ij2} + \epsilon
+where:
+i = 1,2,...,k observations
+j = 1,2,...,n features
+
+\noindent
+Here is the model expressed in matrix notation
+y = Z \alpha + X \beta + \epsilon
+where:
+Z = & 1 & 0 & 0 & \cdots & 0 \\
+    & \vdots & \vdots & \vdots &  & \vdots \\
+    & 1 & 1 & 0 & \cdots & 0 \\
+    & 1 & 1 & 0 & \cdots & 0 \\
+    & \vdots & \vdots & \vdots &  & \vdots \\
+    & 1 & 0 & 0 & \cdots & 1, 
+
+\alpha = & \mu \\
+	 & \alpha_{1},
+
+X = & x_{111} & x_{112} \\
+    & x_{121} & x_{122} \\
+    & \vdots & \vdots \\
+    & x_{kn1} & x_{112},
+
+\beta = & \beta_{1} \\
+	& \beta_{2}
+
+Take note that $\mathbf{Z}$ is assumed to be rank-deficient and $\mathbf{X}$ is full-rank.
+Therefore $\mathbf{Z}$ will be reparameterized to become full-rank. Below is the ANCOVA
+model in code.
+
+[C]
+[R]
+
+[2] estimating parameters
+In order to generate values for the response variable, $\yhat$, $\alpha$ and $\beta$ need to be
+estimated. In other words, to find $\alpha$ and $\beta$ the estimates, $\alphat$ and $\betahat$,
+must be calculated.
+
+\noindent
+Now that $\mathbf{Z}$ is full-rank, there is no need to use the general inverse of $\mathbf{Z}$,
+$(\mathbf{Z}^{'} mathbf{Z})^{-}$. Therefore, $\alphahat$ can be calculated as follows
+\alphahat = \left( Z^{'} Z \right)^{-} \left( Z^{'} y \right) - \left( Z^{'} Z \right) \left( Z^{'} X \betahat \right)
+
+\noindent
+The equation for $\alphahat$ can be used for estimating $\betahat$
+\betahat = \left( X^{'} Z \right) \left[ \left( Z^{'} Z \right)^{-} \left( Z^{'} y \right) - 
+\left( Z^{'} Z \right) \left( Z^{'} X \betahat \right) \right] + X^{'} X \betahat = X^{'} y
+
+\left( X^{'} Z \right) \left[ \left(Z^{'} Z\right)^{-} \left( Z^{'} y \right) \right] -
+\left( X^{'} Z \right) \left[ \left( Z^{'} Z \right)^{-} \left( Z^' X \betahat \right) \right] + 
+X^{'} X \betahat = X^{'} y
+
+\left( X^{'} Z \right) \left[ \left( Z^{'} Z \right)^{-} \left( Z^{'} y \right) \right] + 
+X^{'} \left[ I - Z \left( Z^{'} Z \right)^{'} Z^{'} \right] X \betahat = X^{'} y
+
+X^{'} \left[ Z \left( Z^{'} Z \right)^{-} \left( Z^{'} y \right) \right] + 
+X^{'} \left[ I - Z \left( Z^{'} Z \right)^{'} Z^{'} \right] X \betahat = X^{'} y
+
+X^{'} \left( P \right) y + X^{'} \left[ I - P \right] X \betahat = X^{'} y
+
+X^{'} \left[ I - P \right] X \betahat = X^{'} y - X^{'} \left( P \right) y
+
+X^{'} \left[ I - P \right] X \betahat = X^{'} \left[ I - P \right] y
+
+E_{xx}^{-} e_{xy}
+
+For convenience, the ANCOVA model is reconstructed as
+y = U \Gamma + \epsilon
+where:
+U = \left[ Z, X \right]
+\Gamma = \left[ & \alphahat \\
+		& \betahat \right].
+
+[C]
+[R]
+
+[3] degrees of freedom
+The degrees of freedom for the error is $df = n-k$. This can be used for generating
+values for the MSE, $\sigma^{2}$.
+
+[C]
+[R]
+
+[4] sum of squares
+Next, the sum of squares are calculated
+SSE = SS_{res} = \left( y - \yhat \right)^{'} \left( y - \yhat \right) 
+
+SSR = SS_{reg} = \left( y - \ybar \right)^{'} \left( y - \ybar \right)
+
+SST = SS_{tot} = SS_{res} + SS_{reg}
+
+R^{2} = frac{ SS_{res} }{ SS_{reg} }. 
+
+[C]
+[R]
+
+[5] mean squares
+Using the formula for the $SS_{res}$, calculate the MSE
+MSE = \sigma^{2} = frac{ SS_{res} }{ k \left( n-1 \right) }.
+
+Now use the MSE to calculate the standard errors for the estimates in $\Gamma$
+SE_{\Gamma} = \sqrt{ diag(\sigma^{2} \mathbf{U}^{'} \mathbf{U}) }
+matrix( sqrt( diag( ms.res[1] * solve(t(U) %*% U) ) ) )
+
+[C]
+[R]
+
+[6] hypothesis test | t-test (linear relation)
+To determine if there exists a linear relation between the regressors and the
+response variable, a hypothesis test is needed, namely a t-test.
+
+The hypothesis test is constructed as follows
+H_{0}: \Gamma = 0 \text{no linear relation}
+H_{a}: \Gamma \neq 0 \text{linear relation exists}
+where:
+\Gamma = \left[ & \alpha \\
+	       & \beta_{1} \\
+	       & \beta_{2} \right]
+
+Next comes the t-test
+t_{test} = frac{ \Gamma - 0 }{ SE_{\Gamma} }
+
+The null hypothesis, H_{0}, is rejected if
+t_{TEST} \geq t_{1-\alpha, n-k}
+
+[C]
+[R]
+
+[7] influencial observations and leverage
+To prevent model misspecification, employ influence diagnostic measures
+to identify outliers effecting the one-way ANCOVA model. These measures include
+leverages, $ h_{ii} $, residuals, $ \epsilonhat_{i} $, studentized residuals,
+$ \hat{r}_{i} $, and Cook's Distance, D_{i}.
+
+These diagnstic tools are calculated below
+H = X \left( X^{'} X \right) X^{'}
+
+h = diag(H), text{with influence benchmark} frac{ 2 \left( k+1 \right) }{ n }
+
+\epsilonhat_{i} = y - \yhat
+
+\hat{r}_{i} = frac{ \epsilonhat_{i} }{ \sqrt{ \sigma^{2} \left( 1 - h \right) } }
+
+D_{i} = \left( frac{ \hat{r}_{i}^{2} }{ k+1 } \right) \left( frac{ h }{ 1 - h } \right)
+
+[C]
+[R]
+
+In \textsc{figure ..} the \emph{residuals vs. fitted} graph shows a faint pattern that
+appears to be either \emph{stochastic} or \emph{sinusoidal}. In addition, hardly
+any outliers exist in the \emph{standardized residuals vs. leverage} graph.
+
+[P]
+
+[8] results
+A comparison of the results from the above procedure, with \textbf{r}'s built-in functions,
+show that they are identical and that the above procedure is correct. Further, these
+results reveal that a linear relation between the regressors and the response variables is
+insignificant.
+
+[C]
+[R]
+
+Though there exists no linear relation in the model, that does not elimminate
+other kinds of relations. Note that in \textsc{figure ..} the data seems to take
+the form of either a \emph{stochastic} or \emph{sinusoidal} function. A new
+question then arises, "why do median earnings appear volitle as the percentage of
+jobs, requiring degrees and those that don't, increases?"
+
+[P]
+
+
+[9] model validation
+Three new models are compared to determine which features are relevant and which are
+irrelevant. To compare these models, use the \emph{vif} and \emph{anova} functions in \textbf{r}.
+
+[C]
+[R]
+
+The variance inflation factors for per_college_jobs and perc_non_college_jobs
+are moderatly high, suggesting a removal of at least one of the two to get a
+more accurate model. The adjusted model will now be explored in Case II.
+
+
+[[METHOD: case II]]
+
+[INTRO]
+I began my analysis by first constructing my ANCOVA model with all relevant features
+that would assist in determining if there is truely an association between college
+major category and income. However, after performing model validation, I removed
+\textbf{perc non college jobs} from the model to get a more accurate result. I now explore
+this adjusted model. 
+
+[1] model: adjusted one-way (unbalanced) model with q = 1 covariate
+The ANCOVA (one-way) model will still bes used, but the covariates are now $q = 1$.
+In mathematical notation, the model is expressed as
+...
+
+Here is the same model in matrix notation
+...
+
+$\mathbf{Z}$ is assumed to be rank deficient and $\mathbf{X}$ is full-rank. As before,
+\mathbf{Z} will be reparameterized.
+
+[C]
+[R]
+
+[2] estimating parameters
+Calculations for parameters $\alphahat$ and $\betahat$ are the same as in \textsc{case i}.
+...
+
+A more compact form of the model can be expressed as
+...
+
+[C]
+[R]
+
+[3] degrees of freedom
+The degrees of freedom for the error term are the same as in  Case I.
+
+[C]
+[R]
+
+[4] sum of squares
+Given the previous calculations, the \emph{sum of squares} can be calculated as such
+...
+
+[C]
+[R]
+
+[5] mean squares
+The sum of squared residuals, $SSE$ or $SS_{res}$ can be used to find the $MSE$
+...
+
+Now the standard error of $\Gamma$, $SE_{\Gamma}$ can be found
+...
+
+[C]
+[R]
+
+[6] hypothesis test | t-test (linear relation)
+A t-test is used to test for any such linear relation between the regressors and the
+response variable.
+
+The hypothesis test and t-test are constructed below
+...
+
+The null hypothesis, $H_{0}$, is rejected if $t_{TEST} \geq t_{\1-alpha, n-k}$.
+
+In $Case I$, results from the t-test revealed no significant \emph{linear} relation
+between the regressors and the response variable. Therefore, it can be assumed that
+this current t-test will also reach a same conclusion, but with different results.
+
+[C]
+[R]
+
+[7] influencial observations and leverage
+It can be assumed, as in \emph{Case I}, that there exits no outliers whose presence
+would have a huge impact on the model.
+
+[C]
+[R]
+
+Similar conclusion in \textsc{case i} can be reached to explain the graph's behaviour in
+\textsc{figure ..} below.
+
+[P]
+
+[8] results
+Again, results show very low signs of linearity between the regressors and the response
+variable. More sophisticated mathematical modeling techniques will be needed for
+discovering the \textbf{proper} relation between the regressors and response variable.
+
+[C]
+[R]
+[P]
+
+
+
+[[discussion]]
+\textsc{case i} revealed a weak linear relation between the regressors and
+the response variable. However, \textsc{case i} resutls only
+state that no \emph{linear} relation exists, but do not state that
+no \emph{other} relation exists. Such a relation would require more adavnced
+mathematical modeling techinques to discover what this true relation would be.
+In addition, the variance inflation factors for \textbf{perc college jobs}
+and \text{perc non college jobs} were moderatly high. This indicated that at
+least one of the two features were redundant and should be removed.
+
+After making adjustments to the model, the same procedure in \textsc{case i}
+was conducted a second time in \textsc{case ii}. However, model validation was
+skipped, given it served its purpose in \textsc{case i}. Thes results from the
+hypothesis test reached the same conclusion-there is no sign of linearity in
+the model.
